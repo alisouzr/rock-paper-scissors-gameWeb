@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: peru;
+}
+body div.start {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body div.start h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body div.start h2 {
+  color: #7a190f;
+  margin-bottom: 22px;
+}
+body div.start button {
+  background-color: #562c1d;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 90px;
+  height: 54px;
+  border-radius: 6px;
+}
+body div.start button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #b9766f inset;
+}
+
+@media (min-width: 768px) {
+  body div.start {
+    height: 470px;
+  }
+}
+@media (min-width: 1024px) {
+  body div.start {
+    height: 620px;
+  }
+  body div.start h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  body div.start h2 {
+    color: #7a190f;
+    margin-bottom: 22px;
+    font-size: 40px;
+  }
+  body div.start button {
+    font-size: 26px;
+    width: 115px;
+    height: 74px;
+  }
+}
+@media (min-width: 1024px) {
+  body div.start {
+    height: 540px;
+  }
+  body div.start h1 {
+    font-size: 40px;
+  }
+  body div.start h2 {
+    font-size: 48px;
+  }
+  body div.start button {
+    font-size: 36px;
+    width: 134px;
+    height: 84px;
+  }
+}

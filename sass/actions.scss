@@ -1,0 +1,63 @@
+section.actions-game {
+    div {
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin-left: 5px;
+            background-color: antiquewhite;
+            border-radius: 10%;
+
+            &:hover {
+                cursor: pointer;
+                box-shadow: 0 0 40px 40px #6b2922 inset;
+            }
+
+            img {
+                height: 60px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    section.actions-game {
+        div {
+
+            button {
+                img {
+                    height: 90px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 1024px) {
+    section.actions-game {
+        div {
+
+            button {
+                img {
+                    height: 124px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 1440px) {
+    section.actions-game {
+        div {
+
+            button {
+                img {
+                    height: 134px;
+                }
+            }
+        }
+    }
+
+}

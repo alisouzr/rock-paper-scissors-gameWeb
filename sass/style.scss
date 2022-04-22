@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+@import 'introducion.scss';
+@import 'actions.scss';
+@import 'result.scss';
+@import 'start.scss';
+@import 'content.scss';
+@import 'footer.scss';
+
+div.content {
+    display: none;
+}

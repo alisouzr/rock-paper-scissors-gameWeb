@@ -1,0 +1,307 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section.introducion div h1 {
+  color: blueviolet;
+}
+section.introducion div h2 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #562c1d;
+  margin-bottom: 10px;
+}
+section.introducion div h2:first-child {
+  color: #003391;
+}
+
+@media (min-width: 768px) {
+  section.introducion div h2 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  section.introducion div h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  section.introducion div h2 {
+    font-size: 36px;
+  }
+}
+section.actions-game div {
+  display: flex;
+  justify-content: center;
+}
+section.actions-game div button {
+  margin-left: 5px;
+  background-color: antiquewhite;
+  border-radius: 10%;
+}
+section.actions-game div button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #6b2922 inset;
+}
+section.actions-game div button img {
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  section.actions-game div button img {
+    height: 90px;
+  }
+}
+@media (min-width: 1024px) {
+  section.actions-game div button img {
+    height: 124px;
+  }
+}
+@media (min-width: 1440px) {
+  section.actions-game div button img {
+    height: 134px;
+  }
+}
+section.actions-result div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.actions-result div h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+section.actions-result div #game-finish {
+  background-color: #562c1d;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 90px;
+  height: 54px;
+  border-radius: 6px;
+}
+section.actions-result div #game-finish:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #b9766f inset;
+}
+section.actions-result div #button-again {
+  display: none;
+  background-color: #562c1d;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 136px;
+  height: 54px;
+  border-radius: 6px;
+}
+section.actions-result div #button-again:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #b9766f inset;
+}
+
+@media (min-width: 1024px) {
+  section.actions-result div h2 {
+    font-size: 34px;
+  }
+  section.actions-result div #game-finish {
+    font-size: 26px;
+    width: 114px;
+    height: 70px;
+  }
+  section.actions-result div #button-again {
+    font-size: 22px;
+    width: 164px;
+    height: 76px;
+  }
+}
+@media (min-width: 1440px) {
+  section.actions-result div h2 {
+    font-size: 38px;
+  }
+  section.actions-result div #game-finish {
+    font-size: 26px;
+    width: 130px;
+    height: 86px;
+  }
+  section.actions-result div #button-again {
+    font-size: 26px;
+    width: 178px;
+    height: 86px;
+  }
+}
+body {
+  margin: 0;
+  width: 100%;
+  background-color: peru;
+}
+body div.start {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body div.start h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body div.start h2 {
+  color: #7a190f;
+  margin-bottom: 22px;
+}
+body div.start button {
+  background-color: #562c1d;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 90px;
+  height: 54px;
+  border-radius: 6px;
+}
+body div.start button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 40px 40px #b9766f inset;
+}
+
+@media (min-width: 768px) {
+  body div.start {
+    height: 470px;
+  }
+}
+@media (min-width: 1024px) {
+  body div.start {
+    height: 620px;
+  }
+  body div.start h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  body div.start h2 {
+    color: #7a190f;
+    margin-bottom: 22px;
+    font-size: 40px;
+  }
+  body div.start button {
+    font-size: 26px;
+    width: 115px;
+    height: 74px;
+  }
+}
+@media (min-width: 1024px) {
+  body div.start {
+    height: 540px;
+  }
+  body div.start h1 {
+    font-size: 40px;
+  }
+  body div.start h2 {
+    font-size: 48px;
+  }
+  body div.start button {
+    font-size: 36px;
+    width: 134px;
+    height: 84px;
+  }
+}
+body {
+  margin: 0;
+  width: 100%;
+  background-color: peru;
+}
+body div.content {
+  margin-top: 90px;
+  height: 408px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  body div.content {
+    height: 360px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  body div.content {
+    margin-top: 20px;
+    height: 500px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  body div.content {
+    height: 702px;
+    padding-top: 20px;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer h4 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+footer div {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+footer div img {
+  height: 40px;
+}
+footer div img:last-child {
+  margin-left: 4px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer h4 {
+    font-size: 20px;
+  }
+  footer div img {
+    height: 54px;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer h4 {
+    font-size: 30px;
+  }
+  footer div img {
+    height: 70px;
+  }
+}
+@media (min-width: 1440px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer h4 {
+    font-size: 30px;
+  }
+  footer div img {
+    height: 70px;
+  }
+}
+div.content {
+  display: none;
+}

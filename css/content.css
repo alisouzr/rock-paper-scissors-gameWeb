@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-color: peru;
+}
+body div.content {
+  margin-top: 90px;
+  height: 408px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  body div.content {
+    height: 360px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  body div.content {
+    margin-top: 20px;
+    height: 500px;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  body div.content {
+    height: 702px;
+    padding-top: 20px;
+  }
+}

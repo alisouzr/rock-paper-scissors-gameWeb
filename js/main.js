@@ -35,7 +35,10 @@ buttonPapel.addEventListener('click', (e) => {
     if (number == 0) {
         console.log("Empate")
         textResult.innerHTML =
-            `Empate`;
+            `Empate </br> Máquina jogou PAPEL`;
+
+        /* textResult.innerHTML =
+            `Máquina jogou $` */;
         textResult.style.color = "black";
 
         textScore.innerHTML =
@@ -46,7 +49,7 @@ buttonPapel.addEventListener('click', (e) => {
         pointUser = pointUser + 1;
 
         textResult.innerHTML =
-            `Ganhou`;
+            `Ganhou </br> Máquina jogou PEDRA`;
 
         textResult.style.color = "green";
         textScore.innerHTML =
@@ -56,7 +59,7 @@ buttonPapel.addEventListener('click', (e) => {
         pointMachine = pointMachine + 1;
 
         textResult.innerHTML =
-            `Perdeu`;
+            `Perdeu </br> Máquina jogou TESOURA`;
         textResult.style.color = "red";
 
         textScore.innerHTML =
@@ -75,7 +78,7 @@ buttonPedra.addEventListener('click', (e) => {
         pointMachine = pointMachine + 1;
 
         textResult.innerHTML =
-            `Perdeu`;
+            `Perdeu </br> Máquina jogou PAPEL`;
         textResult.style.color = "red";
 
         textScore.innerHTML =
@@ -84,7 +87,7 @@ buttonPedra.addEventListener('click', (e) => {
         textResult.style.color = "black";
 
         textResult.innerHTML =
-            `Empate`;
+            `Empate </br> Máquina jogou PEDRA`;
 
         textScore.innerHTML =
             `Usuário: ${pointUser} Maquina: ${pointMachine}`;
@@ -93,7 +96,7 @@ buttonPedra.addEventListener('click', (e) => {
         pointUser = pointUser + 1;
 
         textResult.innerHTML =
-            `Ganhou`;
+            `Ganhou </br> Máquina jogou TESOURA`;
 
         textResult.style.color = "green";
         textScore.innerHTML =
@@ -112,7 +115,7 @@ buttonTesoura.addEventListener('click', (e) => {
         pointUser = pointUser + 1;
 
         textResult.innerHTML =
-            `Ganhou`;
+            `Ganhou </br> Máquina jogou PAPEL`;
 
         textResult.style.color = "green";
         textScore.innerHTML =
@@ -121,7 +124,7 @@ buttonTesoura.addEventListener('click', (e) => {
         pointMachine = pointMachine + 1;
 
         textResult.innerHTML =
-            `Perdeu`;
+            `Perdeu </br> Máquina jogou PEDRA`;
         textResult.style.color = "red";
 
         textScore.innerHTML =
@@ -129,7 +132,7 @@ buttonTesoura.addEventListener('click', (e) => {
     } else {
 
         textResult.innerHTML =
-            `Empate`;
+            `Empate </br> Máquina jogou TESOURA`;
         textResult.style.color = "black";
 
         textScore.innerHTML =

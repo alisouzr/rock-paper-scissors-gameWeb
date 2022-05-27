@@ -1,7 +1,7 @@
 # Web rock-paper-scissors
 
 <h3>A paper and scissors rock game made with javascript html css and Sass</h3>
-<img align="center" alt="Python" height="30" width="40" src="images/game.png">
+<img align="center" alt="Python" height="220" width="180" src="images/game.png">
 
 <hr>
 <div style="display: inline_block">

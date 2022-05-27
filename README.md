@@ -14,4 +14,4 @@
   <br>
   I hope you like it! :D
 
-teste aqui -> https://gameweb-rock-paper-scissors.alisouzr.repl.co/
+play here -> https://gameweb-rock-paper-scissors.alisouzr.repl.co/
